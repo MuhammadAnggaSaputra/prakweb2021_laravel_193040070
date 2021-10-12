@@ -18,7 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', [
+        "name" => "Muhammad Angga Saputra",
+        "email" => "manggas703@gmail.com",
+        "image" => "angga.jpg"
+    ]);
 });
 
 Route::get('/blog', function () {

@@ -9,9 +9,9 @@
 </head>
 <body>
     <h1>Halaman About</h1>
-    <h3>Muhammad Angga Saputra</h3>
-    <p>manggas703@gmail.com</p>
-    <img src="img/angga.jpg" alt="Muhammad Angga Saputra" width="50%">
+    <h3><?= $name; ?></h3>
+    <p><?= $email; ?></p>
+    <img src="img/<?= $image; ?>" alt="<?= $name; ?>" width="50%">
 
 </body>
 </html>  
